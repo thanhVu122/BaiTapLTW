@@ -1,10 +1,64 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+UserList table {
+  width: 100%;
+  textalign: "left";
+  bordercollapse: "collapse";
+}
+UserList tr {
+  backgroundcolor: "#f2f2f2";
+}
+
+UserList td {
+  padding: "8px";
+  borderbottom: "1px solid #ddd";
+}
+
+UserList th {
+  padding: "8px";
+}
+
+/* Định dạng khung nhập */
+input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+/* Khi focus vào input */
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Định dạng nút */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+/* Khi hover vào nút */
+button:hover {
+  background-color: #0056b3;
 }
 
 @media (prefers-reduced-motion: no-preference) {
